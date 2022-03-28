@@ -1,0 +1,27 @@
+.image_name {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.nameStyle {
+  border-radius: 50%;
+  background-color: bisque;
+  width: 40px;
+  height: 40px;
+  padding-top: 8px;
+}
+.imageStyle {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.username {
+  color: rgb(12, 4, 4);
+  padding-top: 7px;
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Roboto';
+}

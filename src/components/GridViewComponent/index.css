@@ -1,0 +1,32 @@
+/* Write your CSS code here */
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border: 0.5px solid rgb(230, 218, 202);
+}
+.allPostsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  background-color: rgb(226, 236, 236);
+}
+.accept-request-list-heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 400;
+  padding-left: 18px;
+}
+
+.toggleViewButton {
+  border: none;
+  border-radius: 15px;
+  background-color: blueviolet;
+  color: #ffffff;
+  width: 150px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  padding: 5px;
+  align-self: center;
+  margin-top: 30px;
+}

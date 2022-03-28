@@ -1,0 +1,98 @@
+.postContainer {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 350px;
+  background-color: #ffffff;
+  justify-content: center;
+  border: 0.5px solid rgb(230, 217, 243);
+  margin: 16px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.ui_team_comments_container {
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.title {
+  width: 153px;
+  font-family: HKGrotesk;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: var(--dark-blue-grey);
+}
+.para {
+  color: black;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+
+.nameStyle {
+  border-radius: 50%;
+  background-color: bisque;
+  width: 40px;
+  height: 40px;
+  padding-top: 8px;
+}
+.tagNames {
+  color: #333333;
+  font-family: 'Roboto';
+  background-color: rgba(11, 105, 255, 0.1);
+  padding: 5px;
+  display: flex;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  height: 40px;
+
+  justify-content: center;
+  align-items: center;
+}
+.image_approve_container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 5px;
+}
+.imageStyle {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.username {
+  color: rgb(12, 4, 4);
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Roboto';
+}
+.approveButton {
+  background-color: rgb(0, 102, 255);
+  color: #ffffff;
+  font-family: 'Roboto';
+  border-radius: 8px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  margin-top: 18px;
+}
+.approvedButton {
+  background-color: rgb(3, 73, 21);
+  color: #ffffff;
+  font-family: 'Roboto';
+  border-radius: 8px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  margin-top: 18px;
+}
